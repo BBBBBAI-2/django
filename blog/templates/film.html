@@ -1,19 +1,50 @@
 <!DOCTYPE html>
-<html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <title>FILM</title>
+<html>
+  <head>
+    <title>Film</title>
+    <style>
+        * { font-family: Arial, sans-serif; margin: 0; padding: 10px; }
+        nav { background: #f0f0f0; border-radius: 5px; }
+        a { margin-right: 15px; color: #333; text-decoration: none; }
+        a:hover { color: #007bff; }
+        h1 { color: #2c3e50; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background-color: #f8f9fa; }
+        img { max-width: 100px; height: auto; }
+    </style>
 </head>
 <body>
-    <h1>FILM</h1>
-    <a href="indice">INDICE</a> <br>
-    <a href="film">FILM</a> <br>
-    <a href="musica">MUSICA</a> <br>
-<p>
-   il testo inserito è: {{testo}}
-   </p>
-   <p>
-     il numero inserito è: {{numero}}
-    </p>
-</body>
+    <header>
+        <h1>🎉Titolo</h1>
+    </header>
+    
+    <nav>
+        <a href="indice">Home</a>
+        <a href="film">Film</a>
+        <a href="musica">Musica</a>
+	<table border = 1>
+      <tr style = "color:yellow;">
+        <th>1</th>
+        <th>titolo</th>
+        <th><a href="ai.com"><img src="static/film2.jpg" title = "acorn" width="200" heigh="200" alt="100" style = "background-color:yellow;"></a></th>
+      </tr>
+      <tr style = "color:orange;"font-size="100px">
+        <th>2</th>
+        <th>titolo</th>
+        <th><a href="ai.com"><img src="static/film3.jpg" title = "carrot" width="200" heigh="200" alt="100" style = "background-color:orange;"></a></th>
+      </tr>
+      <tr style = "color:brown;">
+        <th>3</th>
+        <th>titolo</th>
+        <th><a href="ai.com"><img src="static/film1.jpg" title = "socks" width="200" heigh="200" alt="100" style = "background-color:brown;"></a></th>
+      </tr>
+      <tr style = "color:orange;">
+        <th>4</th>
+        <th>titolo</h4></th>
+        <th><a href="ai.com"><img src="static/film4.jpg" title = "strawberry" width="200" heigh="200" alt="100" style = "background-color:red;"></a></th>
+      </tr>
+    </table>
+
+  </body>
 </html>

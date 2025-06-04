@@ -1,19 +1,50 @@
 <!DOCTYPE html>
-<html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <title>MUSICA</title>
+<html>
+  <head>
+    <title>Musica</title>
+    <style>
+        * { font-family: Arial, sans-serif; margin: 0; padding: 10px; }
+        nav { background: #f0f0f0; border-radius: 5px; }
+        a { margin-right: 15px; color: #333; text-decoration: none; }
+        a:hover { color: #007bff; }
+        h1 { color: #2c3e50; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background-color: #f8f9fa; }
+        img { max-width: 100px; height: auto; }
+    </style>
 </head>
 <body>
-    <h1>MUSICA</h1>
-    <a href="indice">INDICE</a> <br>
-    <a href="film">FILM</a> <br>
-    <a href="musica">MUSICA</a> <br>
-<p>
-   il testo inserito è: {{testo}}
-   </p>
-   <p>
-     il numero inserito è: {{numero}}
-    </p>
-</body>
+    <header>
+        <h1>🎉Titolo</h1>
+    </header>
+    
+    <nav>
+        <a href="indice">Home</a>
+        <a href="film">Film</a>
+        <a href="musica">Musica</a>
+    <table border = 1>
+      <tr style = "color:yellow;">
+        <th>1</th>
+        <th>nome</th>
+        <th><img src="static/acorn.png" title = "acorn" width="200" heigh="200" alt="100" style = "background-color:yellow;"></th>
+      </tr>
+      <tr style = "color:orange;">
+        <th>2</th>
+        <th>nome</th>
+        <th><img src="static/carrot.png" title = "carrot" width="200" heigh="200" alt="100" style = "background-color:orange;"></th>
+      </tr>
+      <tr style = "color:brown;">
+        <th>3</th>
+        <th>nome</th>
+        <th><img src="static/socks.png" title = "socks" width="200" heigh="200" alt="100" style = "background-color:brown;"></th>
+      </tr>
+      <tr style = "color:orange;">
+        <th>4</th>
+        <th>nome</h4></th>
+        <th><img src="static/strawberry.png" title = "strawberry" width="200" heigh="200" alt="100" style = "background-color:red;"></th>
+      </tr>
+    </table>
+
+  </body>
 </html>
